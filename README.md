@@ -17,14 +17,19 @@ Compilation and execution are performed using the standard Java compiler and run
 ## Example:
 
 javac Main.java
+
 java Main
 
 ## Implementation Structure
 
 Board – Manages grid creation, mine placement, and adjacency calculations.
+
 Cell – Represents each square in the grid, storing whether it’s revealed, marked, or mined.
+
 Game – Handles user input, move validation, and win/loss conditions.
+
 Main – Initializes the game and runs the main loop or GUI interface.
+
 The program can be implemented as either a console-based or graphical version depending on design choices.
 
 ## Usage
@@ -33,16 +38,25 @@ When the game starts, a grid of covered cells is displayed.
 Players can perform actions such as:
 
 Reveal a cell: uncover the chosen location.
+
 Mark a cell: flag a suspected mine.
+
 Continue until all safe cells are revealed or a mine is hit.
 
 ## Example console session:
 
 Welcome to Minesweeper!
+
 Enter command:
+
 r 1 1
+
 Safe! 0 mines nearby.
+
 m 2 2
+
 Marked as mine.
+
 r 3 3
+
 Boom! You hit a mine. Game over.
