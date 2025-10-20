@@ -1,8 +1,5 @@
 # Minesweeper — Java Implementation
 
-University of Minnesota – Advanced Programming Principles
-Author: Justin Yun
-
 ## Overview
 
 This project is a Java implementation of the classic Minesweeper game. The objective is to uncover all safe tiles on the board without triggering any mines. The program demonstrates object-oriented programming principles and emphasizes encapsulation, modular design, and game logic management.
